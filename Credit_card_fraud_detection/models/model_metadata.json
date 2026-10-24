@@ -1,0 +1,78 @@
+{
+  "best_model": "Random Forest",
+  "feature_columns": [
+    "Time",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount"
+  ],
+  "metrics": {
+    "Logistic Regression": {
+      "precision": 0.05638586956521739,
+      "recall": 0.8736842105263158,
+      "f1_score": 0.10593490746649649,
+      "roc_auc": 0.9656548079701293,
+      "average_precision": 0.6719244530518995,
+      "confusion_matrix": [
+        [
+          55262,
+          1389
+        ],
+        [
+          12,
+          83
+        ]
+      ]
+    },
+    "Random Forest": {
+      "precision": 0.9852941176470589,
+      "recall": 0.7052631578947368,
+      "f1_score": 0.8220858895705522,
+      "roc_auc": 0.9291523631765686,
+      "average_precision": 0.80009610452024,
+      "confusion_matrix": [
+        [
+          56650,
+          1
+        ],
+        [
+          28,
+          67
+        ]
+      ]
+    }
+  },
+  "rows_before_deduplication": 284807,
+  "duplicate_rows_removed": 1081,
+  "rows_after_deduplication": 283726,
+  "training_rows": 226980,
+  "testing_rows": 56746,
+  "fraud_count": 473,
+  "legitimate_count": 283253
+}
