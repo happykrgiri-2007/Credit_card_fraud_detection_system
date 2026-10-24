@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Generated model files
+models/*.pkl
+
+# Local datasets (can be large)
+dataset/
+creditcard.csv
+
+# Generated temporary files
+*.log
+*.tmp
+
+# Optional: ignore generated reports
+# reports/
